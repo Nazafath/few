@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+#DB:hover {
+ background-color: antiquewhite;
+
+}
+#N {
+  background: linear-gradient(135deg,#6C3991,#F63391);
+  height: 100vh;
+  overflow: hidden;
+}
+.faltu {
+  width: 80%;
+  margin: auto !important;
+}
+.polos-text {
+  color: #6C3991;
+}
+.border-color {
+  border-left:3px solid #6C3991;
+ padding: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pinkman-right {
+  text-align: right;
+}
+.pinkman-left {
+  justify-content: left;
+}
+.the-bargain-closer {
+  padding-top: 300px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.what-btn {
+  color: rgb(244, 22, 140);
+  border-radius: 50%;
+  height: 85px;
+  width: 85px;
+  box-shadow: 0px 9px 32px 0px rgb(0 0 0 / 7%);;
+  box-sizing: border-box;
+  background-color: white;
+  border: none;
+  font-size: 48px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.what-btn:hover{
+  background-color: #f5378e;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.active_slide img {
+  scale: 1.1;
+  box-shadow: 0px 0px 5px 1px rgb(201, 199, 199);
 }
